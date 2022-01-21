@@ -39,6 +39,7 @@ export class LoginComponent implements OnInit {
     if(this.loginForm.value.username == 'Test' && this.loginForm.value.password == 'test'){
       console.log('login successful');
       this.result = false;
+      this.router.navigate(['home']);
     }else{
       this.result = true;
       console.log('login unsuccessful');
