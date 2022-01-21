@@ -1,0 +1,14 @@
+<div class="main">
+  <div class="header">
+    <h2>Login</h2>
+    <span> Username: Test ,   Password: test</span>
+  </div>
+  <div class="Errors" *ngIf="result">
+    <p>Incorrect Username/Password</p>
+  </div>
+  <form class="formContainer" [formGroup]="loginForm" (ngSubmit)="login()">
+    <input type="text" placeholder="Username" formControlName="username">
+    <input type="text" placeholder="Password" formControlName="password">
+    <button (click)="login()">-></button>
+  </form>
+</div>
