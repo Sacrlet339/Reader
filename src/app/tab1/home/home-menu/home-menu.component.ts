@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { HomeServiceService } from '../../services/home-service.service';
 @Component({
   selector: 'app-home-menu',
   templateUrl: './home-menu.component.html',
@@ -9,7 +9,7 @@ export class HomeMenuComponent implements OnInit {
   selectedHistoryItem = false;
   historyValue: any = {};
   queryHistory: any;//and array of previous queries
-  constructor() { }
+  constructor(public hs: HomeServiceService) { }
 
   ngOnInit() {}
   openBook(id){
@@ -22,6 +22,6 @@ export class HomeMenuComponent implements OnInit {
   getHistoryId(id){
     this.historyValue = this.queryHistory[id];
     this.selectedHistoryItem = true;
-    console.log("historyValue ",this.historyValue);
+    console.log('historyValue ',this.historyValue);
   }
 }
