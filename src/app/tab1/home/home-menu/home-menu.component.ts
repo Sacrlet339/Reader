@@ -11,7 +11,10 @@ export class HomeMenuComponent implements OnInit {
   queryHistory: any;//and array of previous queries
   constructor(public hs: HomeServiceService) { }
 
-  ngOnInit() {}
+  ngOnInit() {
+    this.queryHistory = this.hs.getbooks();
+    console.log(this.queryHistory);
+  }
   openBook(id){
     console.log('book Id', id);
   }

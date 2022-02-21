@@ -9,8 +9,12 @@ import { Component, OnInit, Input } from '@angular/core';
 export class SynopsisComponent implements OnInit {
   @Input() GoBack2: () => void;
   @Input() history: any = {};
+  genres = [];
   constructor() { }
 
-  ngOnInit() {}
+  ngOnInit() {
+// this.genres = this.history.bookGenre;
+// console.log(this.genres);
+  }
 
 }
