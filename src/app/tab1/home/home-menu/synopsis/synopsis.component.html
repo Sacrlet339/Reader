@@ -9,5 +9,11 @@
   <button (click)="like(history.id)" *ngIf="!history.liked"><mat-icon>star</mat-icon> Like</button>
   <button (click)="unlike(history.id)" *ngIf="history.liked"><mat-icon>star</mat-icon> unlike</button>
   </div>
+  <div>
+    <button (click)="addToLibrary(history.id)"><mat-icon>library_add</mat-icon> Add To Libaray</button>
+  </div>
+  <div>
+    <button (click)="openBook(history.id)">Read</button>
+  </div>
 </div>
 

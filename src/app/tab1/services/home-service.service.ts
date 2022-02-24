@@ -46,4 +46,11 @@ export class HomeServiceService {
       }
     }
   }
+  openbook(id){
+    for (const i of this.booklist) {
+      if(i.id === id){
+        return i;
+      }
+    }
+  }
 }
