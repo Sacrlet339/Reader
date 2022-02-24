@@ -1,14 +1,13 @@
 <div class="mainContainer">
- <mat-icon  (click)="this.GoBack2()">keyboard_backspace</mat-icon>
   <head>
-   # <mat-icon>home</mat-icon>
+    <mat-icon  (click)="this.GoBack2()">keyboard_backspace</mat-icon>
   </head>
-  <!-- <ion-img src="../../../../assets/img/download.jpg"></ion-img>
+  <ion-img src="../../../../assets/img/download.jpg"></ion-img>
   <p>{{history.bookTitle}}</p>
   <p>{{history.bookAuthor}}</p>
-  <p></p>
-  <p (click)="this.GoBack2()">
-    synopsis works!
-  </p> -->
+  <div>
+  <button (click)="like(history.id)" *ngIf="!history.liked"><mat-icon>star</mat-icon> Like</button>
+  <button (click)="unlike(history.id)" *ngIf="history.liked"><mat-icon>star</mat-icon> unlike</button>
+  </div>
 </div>
 

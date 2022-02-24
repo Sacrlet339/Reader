@@ -9,10 +9,13 @@ div.mainContainer{
   padding: 10%;
 }
 head{
+  display: flex;
+  align-items: center;
   background-color: rgb(48, 47, 47);
   position: fixed;
   height: 50px;
   top:0;
   left: 0;
   width: 100%;
+  padding: 2% 10%;
 }
