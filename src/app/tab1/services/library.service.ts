@@ -1,3 +1,4 @@
+/* eslint-disable guard-for-in */
 /* eslint-disable curly */
 /* eslint-disable @typescript-eslint/quotes */
 /* eslint-disable quote-props */
@@ -19,6 +20,11 @@ export class LibraryService {
     return this.libraryList;
   }
   addToLibrary(bookData){
+    for(const x in this.libraryList){
+      if(this.libraryList[x].id === bookData.id ){
+        return;
+      }
+    }
     this.libraryList.push(bookData);
     console.log(this.libraryList);
   }

@@ -29,7 +29,7 @@ export class SynopsisComponent implements OnInit {
   }
   openBook(id){
     console.log(this.hs.openbook(id));
-    // this.route.navigate(['../tabs/tab2']);
+    this.route.navigate(['../tabs/tab2']);
 
   }
 
