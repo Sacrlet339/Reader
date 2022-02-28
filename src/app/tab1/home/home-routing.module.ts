@@ -1,3 +1,4 @@
+import { ReadBookComponent } from './../../pages/read-book/read-book.component';
 import { HomeHistoryComponent } from './home-history/home-history.component';
 import { HomeMenuComponent } from './home-menu/home-menu.component';
 import { NgModule } from '@angular/core';
