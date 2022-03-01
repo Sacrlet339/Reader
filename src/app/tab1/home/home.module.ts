@@ -9,14 +9,15 @@ import { HomePageRoutingModule } from './home-routing.module';
 
 import { HomePage } from './home.page';
 import { SynopsisComponent } from './home-menu/synopsis/synopsis.component';
-
+import {  ReactiveFormsModule  } from '@angular/forms';
 @NgModule({
   imports: [
     IonicModule,
     CommonModule,
     FormsModule,
     HomePageRoutingModule,
-    MatIconModule
+    MatIconModule,
+    ReactiveFormsModule
   ],
   declarations: [HomePage, HomeHistoryComponent, HomeMenuComponent, SynopsisComponent]
 })

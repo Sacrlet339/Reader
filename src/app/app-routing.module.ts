@@ -1,4 +1,4 @@
-import { ReadBookComponent } from './pages/read-book/read-book.component';
+
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
@@ -10,10 +10,6 @@ const routes: Routes = [
   {
     path: 'library',
     loadChildren: () => import('./library/library.module').then( m => m.LibraryPageModule)
-  },
-  {
-    path: 'read-book',
-    component: ReadBookComponent,
   }
 ];
 @NgModule({

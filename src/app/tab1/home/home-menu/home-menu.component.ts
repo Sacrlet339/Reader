@@ -1,5 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { HomeServiceService } from '../../services/home-service.service';
+import {
+  FormBuilder,
+  FormControl,
+  FormGroup,
+  Validators,
+} from '@angular/forms';
 @Component({
   selector: 'app-home-menu',
   templateUrl: './home-menu.component.html',
@@ -9,7 +15,8 @@ export class HomeMenuComponent implements OnInit {
   selectedHistoryItem = false;
   historyValue: any = {};
   queryHistory: any;//and array of previous queries
-  constructor(public hs: HomeServiceService) { }
+  constructor(public hs: HomeServiceService,
+    private fb: FormBuilder) { }
 
   ngOnInit() {
     this.queryHistory = this.hs.getbooks();

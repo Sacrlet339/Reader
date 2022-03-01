@@ -37,6 +37,10 @@ const routes = [
                 loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("common"), __webpack_require__.e("src_app_tab3_tab3_module_ts")]).then(__webpack_require__.bind(__webpack_require__, /*! ../tab3/tab3.module */ 7586)).then(m => m.Tab3PageModule)
             },
             {
+                path: 'library',
+                loadChildren: () => __webpack_require__.e(/*! import() */ "src_app_library_library_module_ts").then(__webpack_require__.bind(__webpack_require__, /*! ../library/library.module */ 474)).then(m => m.LibraryPageModule)
+            },
+            {
                 path: '',
                 redirectTo: '/tabs/tab1',
                 pathMatch: 'full'
@@ -45,7 +49,7 @@ const routes = [
     },
     {
         path: '',
-        redirectTo: '/tabs/tab1',
+        redirectTo: '/tabs/tab1/home',
         pathMatch: 'full'
     }
 ];
@@ -147,7 +151,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("<ion-tabs>\n\n  <ion-tab-bar slot=\"bottom\">\n    <ion-tab-button tab=\"tab1\">\n      <ion-icon name=\"home\"></ion-icon>\n      <ion-label>HOME</ion-label>\n    </ion-tab-button>\n\n    <ion-tab-button tab=\"tab2\">\n      <ion-icon name=\"book\"></ion-icon>\n      <ion-label>Libabry</ion-label>\n    </ion-tab-button>\n\n    <ion-tab-button tab=\"tab3\">\n      <ion-icon name=\"square\"></ion-icon>\n      <ion-label>Tab 3</ion-label>\n    </ion-tab-button>\n  </ion-tab-bar>\n\n</ion-tabs>\n");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("<ion-tabs>\r\n\r\n  <ion-tab-bar slot=\"bottom\">\r\n    <ion-tab-button tab=\"tab1\">\r\n      <ion-icon name=\"home\"></ion-icon>\r\n      <ion-label>HOME</ion-label>\r\n    </ion-tab-button>\r\n\r\n    <ion-tab-button tab=\"tab2\">\r\n      <ion-icon name=\"star\"></ion-icon>\r\n      <ion-label>COMICS</ion-label>\r\n    </ion-tab-button>\r\n\r\n    <ion-tab-button tab=\"tab3\">\r\n      <ion-icon name=\"square\"></ion-icon>\r\n      <ion-label>Tab 3</ion-label>\r\n    </ion-tab-button>\r\n  </ion-tab-bar>\r\n\r\n</ion-tabs>\r\n");
 
 /***/ }),
 
