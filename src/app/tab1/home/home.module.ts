@@ -6,10 +6,12 @@ import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 import { MatIconModule } from '@angular/material/icon';
 import { HomePageRoutingModule } from './home-routing.module';
+import { BrowserModule } from '@angular/platform-browser';
 
 import { HomePage } from './home.page';
 import { SynopsisComponent } from './home-menu/synopsis/synopsis.component';
-import {  ReactiveFormsModule  } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
+
 @NgModule({
   imports: [
     IonicModule,
@@ -17,7 +19,8 @@ import {  ReactiveFormsModule  } from '@angular/forms';
     FormsModule,
     HomePageRoutingModule,
     MatIconModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    BrowserModule
   ],
   declarations: [HomePage, HomeHistoryComponent, HomeMenuComponent, SynopsisComponent]
 })

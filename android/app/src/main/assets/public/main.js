@@ -88,15 +88,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "AppModule": () => (/* binding */ AppModule)
 /* harmony export */ });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! tslib */ 8806);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ 4001);
-/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/platform-browser */ 6219);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/router */ 3252);
-/* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @ionic/angular */ 8099);
-/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./app-routing.module */ 3696);
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./app.component */ 2050);
-/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/platform-browser/animations */ 2650);
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/forms */ 8346);
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! tslib */ 8806);
+/* harmony import */ var _pages_read_book_read_book_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./pages/read-book/read-book.component */ 2258);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/core */ 4001);
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/platform-browser */ 6219);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/router */ 3252);
+/* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @ionic/angular */ 8099);
+/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./app-routing.module */ 3696);
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app.component */ 2050);
+/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/platform-browser/animations */ 2650);
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/forms */ 8346);
+
 
 
 
@@ -108,22 +110,65 @@ __webpack_require__.r(__webpack_exports__);
 
 let AppModule = class AppModule {
 };
-AppModule = (0,tslib__WEBPACK_IMPORTED_MODULE_2__.__decorate)([
-    (0,_angular_core__WEBPACK_IMPORTED_MODULE_3__.NgModule)({
-        declarations: [_app_component__WEBPACK_IMPORTED_MODULE_1__.AppComponent],
+AppModule = (0,tslib__WEBPACK_IMPORTED_MODULE_3__.__decorate)([
+    (0,_angular_core__WEBPACK_IMPORTED_MODULE_4__.NgModule)({
+        declarations: [_app_component__WEBPACK_IMPORTED_MODULE_2__.AppComponent, _pages_read_book_read_book_component__WEBPACK_IMPORTED_MODULE_0__.ReadBookComponent],
         entryComponents: [],
         imports: [
-            _angular_platform_browser__WEBPACK_IMPORTED_MODULE_4__.BrowserModule,
-            _ionic_angular__WEBPACK_IMPORTED_MODULE_5__.IonicModule.forRoot(),
-            _app_routing_module__WEBPACK_IMPORTED_MODULE_0__.AppRoutingModule,
-            _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_6__.BrowserAnimationsModule,
-            _angular_forms__WEBPACK_IMPORTED_MODULE_7__.FormsModule,
-            _angular_forms__WEBPACK_IMPORTED_MODULE_7__.ReactiveFormsModule
+            _angular_platform_browser__WEBPACK_IMPORTED_MODULE_5__.BrowserModule,
+            _ionic_angular__WEBPACK_IMPORTED_MODULE_6__.IonicModule.forRoot(),
+            _app_routing_module__WEBPACK_IMPORTED_MODULE_1__.AppRoutingModule,
+            _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_7__.BrowserAnimationsModule,
+            _angular_forms__WEBPACK_IMPORTED_MODULE_8__.FormsModule,
+            _angular_forms__WEBPACK_IMPORTED_MODULE_8__.ReactiveFormsModule
         ],
-        providers: [{ provide: _angular_router__WEBPACK_IMPORTED_MODULE_8__.RouteReuseStrategy, useClass: _ionic_angular__WEBPACK_IMPORTED_MODULE_5__.IonicRouteStrategy }],
-        bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_1__.AppComponent],
+        providers: [{ provide: _angular_router__WEBPACK_IMPORTED_MODULE_9__.RouteReuseStrategy, useClass: _ionic_angular__WEBPACK_IMPORTED_MODULE_6__.IonicRouteStrategy }],
+        bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_2__.AppComponent],
     })
 ], AppModule);
+
+
+
+/***/ }),
+
+/***/ 2258:
+/*!********************************************************!*\
+  !*** ./src/app/pages/read-book/read-book.component.ts ***!
+  \********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "ReadBookComponent": () => (/* binding */ ReadBookComponent)
+/* harmony export */ });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! tslib */ 8806);
+/* harmony import */ var _C_Users_acer_Documents_ionicApps_reader_node_modules_ngtools_webpack_src_loaders_direct_resource_js_read_book_component_html__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !./node_modules/@ngtools/webpack/src/loaders/direct-resource.js!./read-book.component.html */ 3158);
+/* harmony import */ var _read_book_component_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./read-book.component.scss */ 7884);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/core */ 4001);
+/* harmony import */ var _assets_books_my_first_book_json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../assets/books/my_first_book.json */ 4369);
+
+
+
+/* eslint-disable @typescript-eslint/naming-convention */
+/* eslint-disable @typescript-eslint/member-delimiter-style */
+
+
+let ReadBookComponent = class ReadBookComponent {
+    constructor() {
+        this.countryList = _assets_books_my_first_book_json__WEBPACK_IMPORTED_MODULE_2__;
+        // console.log('countryList', this.countryList);
+    }
+    ngOnInit() { }
+};
+ReadBookComponent.ctorParameters = () => [];
+ReadBookComponent = (0,tslib__WEBPACK_IMPORTED_MODULE_3__.__decorate)([
+    (0,_angular_core__WEBPACK_IMPORTED_MODULE_4__.Component)({
+        selector: 'app-read-book',
+        template: _C_Users_acer_Documents_ionicApps_reader_node_modules_ngtools_webpack_src_loaders_direct_resource_js_read_book_component_html__WEBPACK_IMPORTED_MODULE_0__["default"],
+        styles: [_read_book_component_scss__WEBPACK_IMPORTED_MODULE_1__]
+    })
+], ReadBookComponent);
 
 
 
@@ -427,6 +472,21 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ 3158:
+/*!*************************************************************************************************************************!*\
+  !*** ./node_modules/@ngtools/webpack/src/loaders/direct-resource.js!./src/app/pages/read-book/read-book.component.html ***!
+  \*************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("<p>\n  read-book works!\n</p>\n<div style=\"text-align:center\">\n  <h2>\n      Country list from local json file...\n  </h2>\n  <div *ngFor=\"let item of countryList\">\n\n        <h3>Chapter:{{item.chapter_no}}</h3>\n        <p>{{item.chapter_content}}</p>\n  </div>\n</div>\n");
+
+/***/ }),
+
 /***/ 836:
 /*!************************************!*\
   !*** ./src/app/app.component.scss ***!
@@ -435,6 +495,28 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHAuY29tcG9uZW50LnNjc3MifQ== */";
+
+/***/ }),
+
+/***/ 7884:
+/*!**********************************************************!*\
+  !*** ./src/app/pages/read-book/read-book.component.scss ***!
+  \**********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJyZWFkLWJvb2suY29tcG9uZW50LnNjc3MifQ== */";
+
+/***/ }),
+
+/***/ 4369:
+/*!*********************************************!*\
+  !*** ./src/assets/books/my_first_book.json ***!
+  \*********************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('[{"chapter_no":"Afghanistan","chapter_content":"AF"},{"chapter_no":"Åland Islands","chapter_content":"AX"},{"chapter_no":"Albania","chapter_content":"AL"},{"chapter_no":"Algeria","chapter_content":"DZ"},{"chapter_no":"American Samoa","chapter_content":"AS"},{"chapter_no":"AndorrA","chapter_content":"AD"},{"chapter_no":"Angola","chapter_content":"AO"},{"chapter_no":"Anguilla","chapter_content":"AI"},{"chapter_no":"Antarctica","chapter_content":"AQ"},{"chapter_no":"Antigua and Barbuda","chapter_content":"AG"},{"chapter_no":"Argentina","chapter_content":"AR"},{"chapter_no":"Armenia","chapter_content":"AM"},{"chapter_no":"Aruba","chapter_content":"AW"},{"chapter_no":"Australia","chapter_content":"AU"},{"chapter_no":"Austria","chapter_content":"AT"},{"chapter_no":"Azerbaijan","chapter_content":"AZ"},{"chapter_no":"Bahamas","chapter_content":"BS"},{"chapter_no":"Bahrain","chapter_content":"BH"}]');
 
 /***/ })
 

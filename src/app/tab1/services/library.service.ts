@@ -35,4 +35,5 @@ export class LibraryService {
 
   console.log(this.libraryList);
   }
+  getBook(){}
 }

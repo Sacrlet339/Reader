@@ -1,3 +1,12 @@
 <p>
   read-book works!
 </p>
+<div style="text-align:center">
+  <h2>
+      Country list from local json file...
+  </h2>
+  <div *ngFor="let item of countryList">
+        <h3>Chapter:{{item.chapter_no}}</h3>
+        <p>{{item.chapter_content}}</p>
+  </div>
+</div>

@@ -1,0 +1,201 @@
+-- Merging decision tree log ---
+provider#androidx.core.content.FileProvider
+INJECTED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml:10:9-12:20
+	android:grantUriPermissions
+		ADDED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml:10:96-130
+	android:authorities
+		INJECTED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml:10:19-70
+	android:exported
+		ADDED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml:10:71-95
+	android:name
+		ADDED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml:10:131-180
+manifest
+ADDED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml:2:1-15:12
+INJECTED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml:2:1-15:12
+INJECTED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml:2:1-15:12
+INJECTED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml:2:1-15:12
+MERGED from [:capacitor-app] C:\Users\acer\Documents\ionicApps\reader\node_modules\@capacitor\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:capacitor-haptics] C:\Users\acer\Documents\ionicApps\reader\node_modules\@capacitor\haptics\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:capacitor-keyboard] C:\Users\acer\Documents\ionicApps\reader\node_modules\@capacitor\keyboard\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:capacitor-status-bar] C:\Users\acer\Documents\ionicApps\reader\node_modules\@capacitor\status-bar\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:capacitor-android] C:\Users\acer\Documents\ionicApps\reader\node_modules\@capacitor\android\capacitor\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:capacitor-cordova-android-plugins] C:\Users\acer\Documents\ionicApps\reader\android\capacitor-cordova-android-plugins\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\acer\.gradle\caches\transforms-3\c776ceeb39c8275f213e428fdd58193e\transformed\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\d04acd52ace109211cbd43a67a95ca60\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\acer\.gradle\caches\transforms-3\00ac874160f65e44955b194b4fa3155a\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\22be330bc905e4369044cdde973c8a3e\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.3.0] C:\Users\acer\.gradle\caches\transforms-3\935295fee7e803e96fcb4a73d237ab38\transformed\fragment-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.0] C:\Users\acer\.gradle\caches\transforms-3\b6ea268cde06397c818a752d369cff82\transformed\jetified-activity-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\acer\.gradle\caches\transforms-3\5a85f4081661704e077598ef948554e9\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\acer\.gradle\caches\transforms-3\66ca5106424f0e1bbb2fc66e1a901a27\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\acer\.gradle\caches\transforms-3\8c362d98a662efcf8ac94b5c48d080bb\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\458b4a7a9d80dc584dbd030e1670e6e6\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\6e311c5244b6c48f2bd7429c5fdd2137\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\d97d388c5a3478ea2518bc687be94d8a\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.2] C:\Users\acer\.gradle\caches\transforms-3\7e2df5b0a1d3a80b2946aa570217843c\transformed\core-1.3.2\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\acer\.gradle\caches\transforms-3\4df225c32c1ef9b979e270f2f779f7f1\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.0] C:\Users\acer\.gradle\caches\transforms-3\8ca7fe93e71e0d612ccb17c699d46d9f\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.0] C:\Users\acer\.gradle\caches\transforms-3\a250387941f5a225a0369fbe325e46b6\transformed\lifecycle-viewmodel-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\acer\.gradle\caches\transforms-3\1e42110d76bbb11800b48957259828c1\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.0] C:\Users\acer\.gradle\caches\transforms-3\9e8f019130d60d4f6c00e037f4b2af96\transformed\lifecycle-runtime-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\85a132256fca0bbe5151bbc5bb7d06e6\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\fdeb3c0f237e4f374312416f16086332\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\acer\.gradle\caches\transforms-3\70cb205cf697a8e950bc89d904ab2e49\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0] C:\Users\acer\.gradle\caches\transforms-3\ddd39ff46b15cfd38407e2bee33a522b\transformed\lifecycle-livedata-core-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\acer\.gradle\caches\transforms-3\f278ef21464074e52bd4aca508eaacc6\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [org.apache.cordova:framework:7.0.0] C:\Users\acer\.gradle\caches\transforms-3\9fb53ba06a874703733a5f51f7d6f0b6\transformed\jetified-framework-7.0.0\AndroidManifest.xml:20:1-27:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\7a84c183e6370d676679c6c514a13e9e\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml:2:1-15:12
+INJECTED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml:2:1-15:12
+INJECTED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml:2:1-15:12
+	package
+		ADDED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml:2:11-37
+		INJECTED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml:2:1-15:12
+		INJECTED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml:2:1-15:12
+		INJECTED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml:2:38-96
+application
+ADDED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml:3:5-13:19
+MERGED from [:capacitor-cordova-android-plugins] C:\Users\acer\Documents\ionicApps\reader\android\capacitor-cordova-android-plugins\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-11:19
+MERGED from [:capacitor-cordova-android-plugins] C:\Users\acer\Documents\ionicApps\reader\android\capacitor-cordova-android-plugins\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-11:19
+MERGED from [androidx.core:core:1.3.2] C:\Users\acer\.gradle\caches\transforms-3\7e2df5b0a1d3a80b2946aa570217843c\transformed\core-1.3.2\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.2] C:\Users\acer\.gradle\caches\transforms-3\7e2df5b0a1d3a80b2946aa570217843c\transformed\core-1.3.2\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\acer\.gradle\caches\transforms-3\4df225c32c1ef9b979e270f2f779f7f1\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\acer\.gradle\caches\transforms-3\4df225c32c1ef9b979e270f2f779f7f1\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.2] C:\Users\acer\.gradle\caches\transforms-3\7e2df5b0a1d3a80b2946aa570217843c\transformed\core-1.3.2\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml:3:159-185
+	android:label
+		ADDED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml:3:80-112
+	android:roundIcon
+		ADDED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml:3:113-158
+	android:icon
+		ADDED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml:3:45-79
+	android:allowBackup
+		ADDED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml:3:18-44
+	android:theme
+		ADDED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml:3:186-217
+	android:usesCleartextTraffic
+		ADDED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml:3:218-253
+activity#io.ionic.starter.MainActivity
+ADDED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml:4:9-9:20
+	android:label
+		ADDED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml:4:136-179
+	android:launchMode
+		ADDED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml:4:180-211
+	android:configChanges
+		ADDED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml:4:19-135
+	android:theme
+		ADDED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml:4:257-306
+	android:name
+		ADDED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml:4:212-256
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml:5:13-8:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml:6:17-69
+	android:name
+		ADDED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml:6:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml:7:17-77
+	android:name
+		ADDED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml:7:27-74
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml:14:5-67
+	android:name
+		ADDED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml:14:22-64
+uses-sdk
+INJECTED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml
+MERGED from [:capacitor-app] C:\Users\acer\Documents\ionicApps\reader\node_modules\@capacitor\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:capacitor-app] C:\Users\acer\Documents\ionicApps\reader\node_modules\@capacitor\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:capacitor-haptics] C:\Users\acer\Documents\ionicApps\reader\node_modules\@capacitor\haptics\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:capacitor-haptics] C:\Users\acer\Documents\ionicApps\reader\node_modules\@capacitor\haptics\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:capacitor-keyboard] C:\Users\acer\Documents\ionicApps\reader\node_modules\@capacitor\keyboard\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:capacitor-keyboard] C:\Users\acer\Documents\ionicApps\reader\node_modules\@capacitor\keyboard\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:capacitor-status-bar] C:\Users\acer\Documents\ionicApps\reader\node_modules\@capacitor\status-bar\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:capacitor-status-bar] C:\Users\acer\Documents\ionicApps\reader\node_modules\@capacitor\status-bar\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:capacitor-android] C:\Users\acer\Documents\ionicApps\reader\node_modules\@capacitor\android\capacitor\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:capacitor-android] C:\Users\acer\Documents\ionicApps\reader\node_modules\@capacitor\android\capacitor\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:capacitor-cordova-android-plugins] C:\Users\acer\Documents\ionicApps\reader\android\capacitor-cordova-android-plugins\build\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-8:41
+MERGED from [:capacitor-cordova-android-plugins] C:\Users\acer\Documents\ionicApps\reader\android\capacitor-cordova-android-plugins\build\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\acer\.gradle\caches\transforms-3\c776ceeb39c8275f213e428fdd58193e\transformed\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\acer\.gradle\caches\transforms-3\c776ceeb39c8275f213e428fdd58193e\transformed\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\d04acd52ace109211cbd43a67a95ca60\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\d04acd52ace109211cbd43a67a95ca60\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\acer\.gradle\caches\transforms-3\00ac874160f65e44955b194b4fa3155a\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\acer\.gradle\caches\transforms-3\00ac874160f65e44955b194b4fa3155a\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\22be330bc905e4369044cdde973c8a3e\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\22be330bc905e4369044cdde973c8a3e\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.0] C:\Users\acer\.gradle\caches\transforms-3\935295fee7e803e96fcb4a73d237ab38\transformed\fragment-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.0] C:\Users\acer\.gradle\caches\transforms-3\935295fee7e803e96fcb4a73d237ab38\transformed\fragment-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.0] C:\Users\acer\.gradle\caches\transforms-3\b6ea268cde06397c818a752d369cff82\transformed\jetified-activity-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.0] C:\Users\acer\.gradle\caches\transforms-3\b6ea268cde06397c818a752d369cff82\transformed\jetified-activity-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\acer\.gradle\caches\transforms-3\5a85f4081661704e077598ef948554e9\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\acer\.gradle\caches\transforms-3\5a85f4081661704e077598ef948554e9\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\acer\.gradle\caches\transforms-3\66ca5106424f0e1bbb2fc66e1a901a27\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\acer\.gradle\caches\transforms-3\66ca5106424f0e1bbb2fc66e1a901a27\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\acer\.gradle\caches\transforms-3\8c362d98a662efcf8ac94b5c48d080bb\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\acer\.gradle\caches\transforms-3\8c362d98a662efcf8ac94b5c48d080bb\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\458b4a7a9d80dc584dbd030e1670e6e6\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\458b4a7a9d80dc584dbd030e1670e6e6\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\6e311c5244b6c48f2bd7429c5fdd2137\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\6e311c5244b6c48f2bd7429c5fdd2137\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\d97d388c5a3478ea2518bc687be94d8a\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\d97d388c5a3478ea2518bc687be94d8a\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.2] C:\Users\acer\.gradle\caches\transforms-3\7e2df5b0a1d3a80b2946aa570217843c\transformed\core-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] C:\Users\acer\.gradle\caches\transforms-3\7e2df5b0a1d3a80b2946aa570217843c\transformed\core-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\acer\.gradle\caches\transforms-3\4df225c32c1ef9b979e270f2f779f7f1\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\acer\.gradle\caches\transforms-3\4df225c32c1ef9b979e270f2f779f7f1\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.0] C:\Users\acer\.gradle\caches\transforms-3\8ca7fe93e71e0d612ccb17c699d46d9f\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.0] C:\Users\acer\.gradle\caches\transforms-3\8ca7fe93e71e0d612ccb17c699d46d9f\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.0] C:\Users\acer\.gradle\caches\transforms-3\a250387941f5a225a0369fbe325e46b6\transformed\lifecycle-viewmodel-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.0] C:\Users\acer\.gradle\caches\transforms-3\a250387941f5a225a0369fbe325e46b6\transformed\lifecycle-viewmodel-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\acer\.gradle\caches\transforms-3\1e42110d76bbb11800b48957259828c1\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\acer\.gradle\caches\transforms-3\1e42110d76bbb11800b48957259828c1\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.0] C:\Users\acer\.gradle\caches\transforms-3\9e8f019130d60d4f6c00e037f4b2af96\transformed\lifecycle-runtime-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.0] C:\Users\acer\.gradle\caches\transforms-3\9e8f019130d60d4f6c00e037f4b2af96\transformed\lifecycle-runtime-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\85a132256fca0bbe5151bbc5bb7d06e6\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\85a132256fca0bbe5151bbc5bb7d06e6\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\fdeb3c0f237e4f374312416f16086332\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\fdeb3c0f237e4f374312416f16086332\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\acer\.gradle\caches\transforms-3\70cb205cf697a8e950bc89d904ab2e49\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\acer\.gradle\caches\transforms-3\70cb205cf697a8e950bc89d904ab2e49\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0] C:\Users\acer\.gradle\caches\transforms-3\ddd39ff46b15cfd38407e2bee33a522b\transformed\lifecycle-livedata-core-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0] C:\Users\acer\.gradle\caches\transforms-3\ddd39ff46b15cfd38407e2bee33a522b\transformed\lifecycle-livedata-core-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\acer\.gradle\caches\transforms-3\f278ef21464074e52bd4aca508eaacc6\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\acer\.gradle\caches\transforms-3\f278ef21464074e52bd4aca508eaacc6\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [org.apache.cordova:framework:7.0.0] C:\Users\acer\.gradle\caches\transforms-3\9fb53ba06a874703733a5f51f7d6f0b6\transformed\jetified-framework-7.0.0\AndroidManifest.xml:25:5-44
+MERGED from [org.apache.cordova:framework:7.0.0] C:\Users\acer\.gradle\caches\transforms-3\9fb53ba06a874703733a5f51f7d6f0b6\transformed\jetified-framework-7.0.0\AndroidManifest.xml:25:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\7a84c183e6370d676679c6c514a13e9e\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\7a84c183e6370d676679c6c514a13e9e\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml:11:13-112
+	android:resource
+		ADDED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml:11:75-109
+	android:name
+		ADDED from C:\Users\acer\Documents\ionicApps\reader\android\app\src\main\AndroidManifest.xml:11:24-74
+uses-permission#android.permission.VIBRATE
+ADDED from [:capacitor-haptics] C:\Users\acer\Documents\ionicApps\reader\node_modules\@capacitor\haptics\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-66
+	android:name
+		ADDED from [:capacitor-haptics] C:\Users\acer\Documents\ionicApps\reader\node_modules\@capacitor\haptics\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-63

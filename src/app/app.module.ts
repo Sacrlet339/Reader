@@ -1,3 +1,4 @@
+import { ReadBookComponent } from './pages/read-book/read-book.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouteReuseStrategy } from '@angular/router';
@@ -9,7 +10,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, ReadBookComponent],
   entryComponents: [],
   imports: [
     BrowserModule,

@@ -643,8 +643,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @ionic/angular */ 8099);
 /* harmony import */ var _angular_material_icon__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/material/icon */ 8852);
 /* harmony import */ var _home_routing_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./home-routing.module */ 3836);
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/platform-browser */ 6219);
 /* harmony import */ var _home_page__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./home.page */ 9786);
 /* harmony import */ var _home_menu_synopsis_synopsis_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./home-menu/synopsis/synopsis.component */ 9135);
+
 
 
 
@@ -667,7 +669,8 @@ HomePageModule = (0,tslib__WEBPACK_IMPORTED_MODULE_5__.__decorate)([
             _angular_forms__WEBPACK_IMPORTED_MODULE_9__.FormsModule,
             _home_routing_module__WEBPACK_IMPORTED_MODULE_2__.HomePageRoutingModule,
             _angular_material_icon__WEBPACK_IMPORTED_MODULE_10__.MatIconModule,
-            _angular_forms__WEBPACK_IMPORTED_MODULE_9__.ReactiveFormsModule
+            _angular_forms__WEBPACK_IMPORTED_MODULE_9__.ReactiveFormsModule,
+            _angular_platform_browser__WEBPACK_IMPORTED_MODULE_11__.BrowserModule
         ],
         declarations: [_home_page__WEBPACK_IMPORTED_MODULE_3__.HomePage, _home_history_home_history_component__WEBPACK_IMPORTED_MODULE_1__.HomeHistoryComponent, _home_menu_home_menu_component__WEBPACK_IMPORTED_MODULE_0__.HomeMenuComponent, _home_menu_synopsis_synopsis_component__WEBPACK_IMPORTED_MODULE_4__.SynopsisComponent]
     })
@@ -837,6 +840,7 @@ let LibraryService = class LibraryService {
         });
         console.log(this.libraryList);
     }
+    getBook() { }
 };
 LibraryService.ctorParameters = () => [];
 LibraryService = (0,tslib__WEBPACK_IMPORTED_MODULE_0__.__decorate)([
